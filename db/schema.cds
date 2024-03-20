@@ -30,8 +30,9 @@ entity address{
     key l_id :Integer  ;
     key c_id: Integer ;
     pri_address: String;
-    sec_address: String;
+    sec_address: Integer;
     add1: Association to one lecture on add1.l_id=l_id;
+
 }
 // #define
 
