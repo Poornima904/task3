@@ -33,5 +33,5 @@ entity address{
     sec_address: String;
     add1: Association to one lecture on add1.l_id=l_id;
 }
-
+// #define
 
