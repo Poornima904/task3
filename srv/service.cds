@@ -10,3 +10,9 @@ service MyService {
     entity address as projection on db.address;
 
 }
+service MyService1{
+        entity college as projection on db.college;
+
+    
+
+}
